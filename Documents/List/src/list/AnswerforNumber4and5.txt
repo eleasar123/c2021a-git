@@ -1,0 +1,11 @@
+4.Why should we opt for isEmpty() over size?
+Size doesn't matter, performance do. The method isEmpty() is favorable if you want to check if the array contains something or not and it will return true or false.
+Knowing if a list is not empty is useful before trying to manipulate and iterate the list. And so that if you know it is empty, you can put contents/items to it.
+While the size method is wise to use when you are trying to know how many/much is the contents/items in that list. It is also useful in loops such as for and while.
+
+5. Compare and contrast the classic for loop versus foreach. What are the pros and cons of both sides?
+The classic for loop takes three parameters or body such as the initializion, condition, and the increment. While the foreach just contains 2 parts/parameters, 
+the iterator variable and the list to iterate. The purpose of looping each value is the same but it is hard to manipulate each value in the foreach loop, like 
+comparing the current value with the previous or the current and the next. It can easily be done by the classic for loop but the foreach is best with iterating each 
+value, printing and storing it. The foreach is easier and faster to make compared to the classic for loop.
+
